@@ -80,7 +80,7 @@ if ($is_admin) {
                 $stmt->close();
             }
             if ($success && $code) {
-                $short_url = rtrim(BASE_URL, '/') . '/r.php?code=' . $code;
+                $short_url = rtrim(BASE_URL, '/') . '/' . $code;
                 $msg = 'URL berhasil dipendekkan!'; $msg_type = 'success';
             } elseif (empty($msg)) {
                 $msg = 'Gagal: ' . $conn->error; $msg_type = 'danger';
@@ -248,7 +248,7 @@ $conn->close();
                 <p class="text-center text-muted py-4">Belum ada URL</p>
                 <?php else: ?>
                 <?php foreach($urls as $u): 
-                    $fs = rtrim(BASE_URL,'/').'/r.php?code='.urlencode($u['short_code']);
+                    $fs = rtrim(BASE_URL,'/').'/'.urlencode($u['short_code']);
                     $cc = (int)($u['click_count'] ?? 0);
                     $hot = $cc >= 10;
                 ?>
