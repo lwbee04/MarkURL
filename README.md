@@ -31,9 +31,11 @@ MarkURL is a lightweight, self-hosted URL shortener built with PHP and MySQL. Pe
 ✅ Edit URLs - Change destination without new link<br>
 ✅ Delete URLs - Remove unwanted links<br>
 ✅ Pagination - 5 URLs per page for easy navigation
-🎨 User Interface
-✅ Responsive Design - Works on all devices
-✅ Modern UI - Clean gradient design
-✅ Toast Notifications - Real-time feedback
-✅ One-Click Copy - Copy short URLs instantly
-✅ Dark Mode Ready - Easy to customize theme
+<br>
+<br>
+🎨 User Interface<br>
+✅ Responsive Design - Works on all devices<br>
+✅ Modern UI - Clean gradient design<br>
+✅ Toast Notifications - Real-time feedback<br>
+✅ One-Click Copy - Copy short URLs instantly<br>
+✅ Dark Mode Ready - Easy to customize theme<br>
